@@ -1,0 +1,41 @@
+@media only screen and (max-width: 769px) {
+  .container {
+    margin: 10px 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .home {
+    flex-direction: column;
+  }
+  .home > div {
+    width: 100%;
+  }
+  .home-image {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    justify-content: space-between;
+    place-items: center;
+    padding-inline: 0;
+  }
+  .home-image > div {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    scale: 0.7;
+  }
+  .rate-text {
+    width: 45%;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .rate-scale {
+    scale: 0.8;
+  }
+  .rate-progress {
+    width: 20%;
+  }
+  .suggested-service {
+    margin-inline: 30px;
+  }
+}
